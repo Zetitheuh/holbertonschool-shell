@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo chown betty cd/tpm/hello
+sudo chown betty cd /tpm/hello
