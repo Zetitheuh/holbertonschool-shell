@@ -1,2 +1,2 @@
 #!/bin/bash
-chown betty cd /tpm/hello
+chown betty cd../../../tpm/hello
