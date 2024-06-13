@@ -1,1 +1,1 @@
-for file in io_redirections_and_filters/*; do echo "#!/bin/bash" | cat - "$file" > temp && mv temp "$file"; done
+for file in init_files_variables_and_expansions/*; do echo "#!/bin/bash" | cat - "$file" > temp && mv temp "$file"; done
