@@ -1,2 +1,2 @@
 #!/bin/bash
-cut -d: -f1 /etc/passwd | grep | sort
+(IFS=:; while read -r username _ _ _ _ _; do echo "$username"; done < /etc/passwd)
