@@ -1,2 +1,3 @@
 #!/bin/bash
-declare -l BEST="School"
+BEST="School"
+export BEST
